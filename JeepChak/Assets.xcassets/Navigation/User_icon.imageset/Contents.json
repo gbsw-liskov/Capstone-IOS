@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "bx_user.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
