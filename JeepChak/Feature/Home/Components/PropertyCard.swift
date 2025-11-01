@@ -17,44 +17,42 @@ struct PropertyCard: View {
                 Image(property.imageName)
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 161, height: 161)
-                    .cornerRadius(5)
+                    .frame(width: 160, height: 160)
+                    .cornerRadius(6)
                     .clipped()
-                
-                // 좋아요
+
+                // 좋아요 버튼
                 Button(action: {}) {
                     Image("Home_heart")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 15, height: 14)
                 }
-                .padding(14)
+                .padding(10)
             }
 
             // 매물 정보
-            VStack(alignment: .leading, spacing: 6) {
+            VStack(alignment: .leading, spacing: 4) {
                 Text(property.price)
-                    .font(.system(size: 16, weight: .bold))
+                    .font(.system(size: 14, weight: .bold))
                     .foregroundColor(.customBlack)
-                    .padding(.top, 8)
-                
-                Text("\(property.type)  \(property.area)")
-                    .font(.system(size: 12))
+                Text("\(property.type) \(property.area)")
+                    .font(.system(size: 11))
                     .foregroundColor(.customDarkGray)
-                
                 Text(property.address)
-                    .font(.system(size: 12))
+                    .font(.system(size: 11))
                     .foregroundColor(.customDarkGray)
-                
                 Text(property.detail)
                     .font(.system(size: 10))
-                    .foregroundColor(.customDarkGray)
-                    
+                    .foregroundColor(.customGray300)
             }
         }
         .frame(width: 160)
+        .background(.customWhite)
+        .cornerRadius(6)
     }
 }
+
 
 #Preview {
     PropertyCard(

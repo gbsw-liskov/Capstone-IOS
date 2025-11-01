@@ -32,7 +32,7 @@ struct HomeView: View {
                         // MARK: - 흰색 영역
                         VStack(spacing: 32) {
                             HomePopularSectionView(properties: viewModel.homepopularProperties)
-                            HomeRecentSectionView(properties: viewModel.homerecentProperties)
+                            HomeRecentSectionView(recentPropeties: viewModel.homerecentProperties)
                         }
                         .padding(.horizontal, 20)
                         .padding(.top, 24)

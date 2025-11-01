@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import SwiftUI
 
 struct Property: Identifiable, Hashable {
     let id = UUID()
