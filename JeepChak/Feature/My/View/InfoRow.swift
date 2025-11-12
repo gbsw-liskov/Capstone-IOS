@@ -16,18 +16,18 @@ struct InfoRow: View {
         HStack(spacing: 16) {
             Image(icon)
                 .font(.system(size: 20))
-                .foregroundColor(.black)
+                .foregroundColor(.customBlack)
                 .frame(width: 24)
             
             Text(title)
                 .font(.system(size: 16))
-                .foregroundColor(.black)
+                .foregroundColor(.customBlack)
             
             Spacer()
             
             Text(value)
                 .font(.system(size: 16))
-                .foregroundColor(.gray)
+                .foregroundColor(.customDarkGray)
         }
         .padding(.vertical, 20)
     }

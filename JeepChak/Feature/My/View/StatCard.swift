@@ -10,7 +10,6 @@ import SwiftUI
 struct StatCard: View {
     let icon: String
     let title: String
-    let count: Int
     var imageWidth: CGFloat
     var imageHeight: CGFloat
 
@@ -20,16 +19,12 @@ struct StatCard: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: imageWidth, height: imageHeight)
-                .padding(.bottom, 4)
+                .padding(.bottom, 10)
             
-            HStack(spacing: 4) {
-                Text(title)
-                    .font(.system(size: 14, weight: .semibold))
-                    .foregroundColor(.black)
-                Text("\(count)")
-                    .font(.system(size: 16, weight: .bold))
-                    .foregroundColor(Color.customBlue)
-            }
+            Text(title)
+                .font(.system(size: 14, weight: .semibold))
+                .foregroundColor(.black)
+            
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 20)
