@@ -15,23 +15,20 @@ struct StatisticsSection: View {
             StatCard(
                 icon: "My_wish",
                 title: "관심 매물",
-                count: userInfo.wishCount,
-                imageWidth: 38,
-                imageHeight: 47
+                imageWidth: 48,
+                imageHeight: 52
             )
             StatCard(
                 icon: "My_analyze",
                 title: "매물 분석",
-                count: userInfo.analysisCount,
-                imageWidth: 55,
-                imageHeight: 47
+                imageWidth: 63,
+                imageHeight: 52
             )
             StatCard(
                 icon: "My_checkList",
                 title: "체크리스트",
-                count: userInfo.checklistCount,
-                imageWidth: 48,
-                imageHeight: 47
+                imageWidth: 53,
+                imageHeight: 52
             )
         }
     }

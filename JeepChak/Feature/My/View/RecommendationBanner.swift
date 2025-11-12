@@ -26,7 +26,7 @@ struct RecommendationBanner: View {
             Image("My_map")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 114, height: 105)
+                .frame(width: 134, height: 125)
         }
         .padding(20)
         .background(Color.customWhite)

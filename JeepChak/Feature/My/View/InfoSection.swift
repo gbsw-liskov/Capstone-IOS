@@ -14,7 +14,7 @@ struct InfoSection: View {
         VStack(spacing: 0) {
             Text("내 정보")
                 .font(.system(size: 18, weight: .bold))
-                .foregroundColor(.black)
+                .foregroundColor(.customBlack)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.bottom, 15)
 

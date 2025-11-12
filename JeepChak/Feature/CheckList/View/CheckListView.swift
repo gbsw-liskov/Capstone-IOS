@@ -27,6 +27,7 @@ struct CheckListView: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 22)
                         .padding(.bottom, 16)
+                        .foregroundColor(Color.customBlack)
 
                     if viewModel.checkItems.isEmpty {
                         CheckListEmptyView()
@@ -59,6 +60,7 @@ struct CheckListView: View {
                 .padding(.trailing, 22)
                 .padding(.bottom, 16)
             }
+            .background(Color.customWhite)
             .navigationBarBackButtonHidden(true)
             .sheet(isPresented: $viewModel.showAddSheet) {
                 AddCheckListView(

@@ -19,9 +19,6 @@ final class MyViewModel: ObservableObject {
             email: "eunchan@example.com",
             phone: "010-1234-5678",
             userId: "kimeunchan",
-            wishCount: 5,
-            analysisCount: 3,
-            checklistCount: 4
         )
     }
 

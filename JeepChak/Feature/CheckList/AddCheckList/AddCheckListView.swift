@@ -102,16 +102,18 @@ struct AddCheckListView: View {
                 .foregroundColor(.gray)
                 .font(.system(size: 14))
             TextEditor(text: $viewModel.memo)
+                .scrollContentBackground(.hidden)
+                .background(Color.customWhite)
                 .font(.system(size: 16))
                 .foregroundColor(.black)
                 .frame(height: 120)
                 .padding(12)
-                .background(Color.white)
                 .overlay(
                     RoundedRectangle(cornerRadius: 8)
                         .stroke(Color.gray.opacity(0.3), lineWidth: 1)
                 )
                 .focused($focusedField, equals: .memo)
+
         }
     }
 
@@ -153,4 +155,15 @@ struct AddCheckListView: View {
         }
         .padding(.top, 20)
     }
+}
+
+#Preview {
+    AddCheckListView(
+        addCheckListItem: { _ in
+            print("✅ 체크리스트 아이템이 추가되었습니다.")
+        },
+        onDismiss: {
+            print("✅ 뷰가 닫혔습니다.")
+        }
+    )
 }
