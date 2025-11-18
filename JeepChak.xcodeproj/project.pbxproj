@@ -7,10 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC10B1E12EC4E2D60067C14E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1782EC4E2D60067C14E /* AppState.swift */; };
+		BC10B1E22EC4E2D60067C14E /* JeepChakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1792EC4E2D60067C14E /* JeepChakApp.swift */; };
+		BC10B1E32EC4E2D60067C14E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B17A2EC4E2D60067C14E /* MainTabView.swift */; };
+		BC10B1E42EC4E2D60067C14E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B17B2EC4E2D60067C14E /* RootView.swift */; };
+		BC10B1E52EC4E2D60067C14E /* AnalyzeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B17D2EC4E2D60067C14E /* AnalyzeView.swift */; };
+		BC10B1E62EC4E2D60067C14E /* AnalyzeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B17E2EC4E2D60067C14E /* AnalyzeViewModel.swift */; };
+		BC10B1E72EC4E2D60067C14E /* AddCheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1802EC4E2D60067C14E /* AddCheckListView.swift */; };
+		BC10B1E82EC4E2D60067C14E /* AddCheckListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1812EC4E2D60067C14E /* AddCheckListViewModel.swift */; };
+		BC10B1E92EC4E2D60067C14E /* CheckListTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1822EC4E2D60067C14E /* CheckListTextField.swift */; };
+		BC10B1EA2EC4E2D60067C14E /* AddChecklistSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1842EC4E2D60067C14E /* AddChecklistSheet.swift */; };
+		BC10B1EB2EC4E2D60067C14E /* AIGeneratedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1852EC4E2D60067C14E /* AIGeneratedListView.swift */; };
+		BC10B1EC2EC4E2D60067C14E /* AILoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1862EC4E2D60067C14E /* AILoadingView.swift */; };
+		BC10B1ED2EC4E2D60067C14E /* AIResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1872EC4E2D60067C14E /* AIResultView.swift */; };
+		BC10B1EE2EC4E2D60067C14E /* AddCheckListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1892EC4E2D60067C14E /* AddCheckListItem.swift */; };
+		BC10B1EF2EC4E2D60067C14E /* AICheckItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B18A2EC4E2D60067C14E /* AICheckItem.swift */; };
+		BC10B1F02EC4E2D60067C14E /* CheckItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B18B2EC4E2D60067C14E /* CheckItem.swift */; };
+		BC10B1F12EC4E2D60067C14E /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B18C2EC4E2D60067C14E /* DetailItem.swift */; };
+		BC10B1F22EC4E2D60067C14E /* AddCheckItemSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B18E2EC4E2D60067C14E /* AddCheckItemSheet.swift */; };
+		BC10B1F32EC4E2D60067C14E /* CheckListDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B18F2EC4E2D60067C14E /* CheckListDetailHeaderView.swift */; };
+		BC10B1F42EC4E2D60067C14E /* CheckListFinalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1902EC4E2D60067C14E /* CheckListFinalHeaderView.swift */; };
+		BC10B1F52EC4E2D60067C14E /* CheckListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1912EC4E2D60067C14E /* CheckListHeaderView.swift */; };
+		BC10B1F62EC4E2D60067C14E /* StatusButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1922EC4E2D60067C14E /* StatusButtonView.swift */; };
+		BC10B1F72EC4E2D60067C14E /* StatusIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1932EC4E2D60067C14E /* StatusIndicatorView.swift */; };
+		BC10B1F82EC4E2D60067C14E /* CheckListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1952EC4E2D60067C14E /* CheckListDetailView.swift */; };
+		BC10B1F92EC4E2D60067C14E /* CheckListEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1962EC4E2D60067C14E /* CheckListEmptyView.swift */; };
+		BC10B1FA2EC4E2D60067C14E /* CheckListFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1972EC4E2D60067C14E /* CheckListFinalView.swift */; };
+		BC10B1FB2EC4E2D60067C14E /* CheckListGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1982EC4E2D60067C14E /* CheckListGridView.swift */; };
+		BC10B1FC2EC4E2D60067C14E /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1992EC4E2D60067C14E /* CheckListView.swift */; };
+		BC10B1FD2EC4E2D60067C14E /* CheckListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B19B2EC4E2D60067C14E /* CheckListDetailViewModel.swift */; };
+		BC10B1FE2EC4E2D60067C14E /* CheckListFinalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B19C2EC4E2D60067C14E /* CheckListFinalViewModel.swift */; };
+		BC10B1FF2EC4E2D60067C14E /* CheckListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B19D2EC4E2D60067C14E /* CheckListViewModel.swift */; };
+		BC10B2002EC4E2D60067C14E /* PropertyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1A02EC4E2D60067C14E /* PropertyCard.swift */; };
+		BC10B2012EC4E2D60067C14E /* RecentPropertyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1A12EC4E2D60067C14E /* RecentPropertyCard.swift */; };
+		BC10B2022EC4E2D60067C14E /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1A32EC4E2D60067C14E /* Property.swift */; };
+		BC10B2032EC4E2D60067C14E /* RecentProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1A42EC4E2D60067C14E /* RecentProperty.swift */; };
+		BC10B2042EC4E2D60067C14E /* HomeCategorySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1A62EC4E2D60067C14E /* HomeCategorySectionView.swift */; };
+		BC10B2052EC4E2D60067C14E /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1A72EC4E2D60067C14E /* HomeHeaderView.swift */; };
+		BC10B2062EC4E2D60067C14E /* HomePopularSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1A82EC4E2D60067C14E /* HomePopularSectionView.swift */; };
+		BC10B2072EC4E2D60067C14E /* HomeRecentSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1A92EC4E2D60067C14E /* HomeRecentSectionView.swift */; };
+		BC10B2082EC4E2D60067C14E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1AB2EC4E2D60067C14E /* HomeView.swift */; };
+		BC10B2092EC4E2D60067C14E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1AC2EC4E2D60067C14E /* HomeViewModel.swift */; };
+		BC10B20A2EC4E2D60067C14E /* AppleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1AE2EC4E2D60067C14E /* AppleSignInButton.swift */; };
+		BC10B20B2EC4E2D60067C14E /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1AF2EC4E2D60067C14E /* AuthHeaderView.swift */; };
+		BC10B20C2EC4E2D60067C14E /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1B02EC4E2D60067C14E /* CustomSecureField.swift */; };
+		BC10B20D2EC4E2D60067C14E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1B12EC4E2D60067C14E /* CustomTextField.swift */; };
+		BC10B20E2EC4E2D60067C14E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1B32EC4E2D60067C14E /* LoginView.swift */; };
+		BC10B20F2EC4E2D60067C14E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1B42EC4E2D60067C14E /* LoginViewModel.swift */; };
+		BC10B2102EC4E2D60067C14E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1B62EC4E2D60067C14E /* MapView.swift */; };
+		BC10B2112EC4E2D60067C14E /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1B72EC4E2D60067C14E /* MapViewModel.swift */; };
+		BC10B2122EC4E2D60067C14E /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1B92EC4E2D60067C14E /* UserInfo.swift */; };
+		BC10B2132EC4E2D60067C14E /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1BB2EC4E2D60067C14E /* InfoRow.swift */; };
+		BC10B2142EC4E2D60067C14E /* InfoSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1BC2EC4E2D60067C14E /* InfoSection.swift */; };
+		BC10B2152EC4E2D60067C14E /* MyHeaderView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1BD2EC4E2D60067C14E /* MyHeaderView.swift.swift */; };
+		BC10B2162EC4E2D60067C14E /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1BE2EC4E2D60067C14E /* MyView.swift */; };
+		BC10B2172EC4E2D60067C14E /* ProfileSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1BF2EC4E2D60067C14E /* ProfileSection.swift */; };
+		BC10B2182EC4E2D60067C14E /* RecommendationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1C02EC4E2D60067C14E /* RecommendationBanner.swift */; };
+		BC10B2192EC4E2D60067C14E /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1C12EC4E2D60067C14E /* StatCard.swift */; };
+		BC10B21A2EC4E2D60067C14E /* StatisticsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1C22EC4E2D60067C14E /* StatisticsSection.swift */; };
+		BC10B21B2EC4E2D60067C14E /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1C42EC4E2D60067C14E /* MyViewModel.swift */; };
+		BC10B21C2EC4E2D60067C14E /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1C72EC4E2D60067C14E /* SignUpView.swift */; };
+		BC10B21D2EC4E2D60067C14E /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1C82EC4E2D60067C14E /* SignUpViewModel.swift */; };
+		BC10B21E2EC4E2D60067C14E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1CA2EC4E2D60067C14E /* SplashView.swift */; };
+		BC10B21F2EC4E2D60067C14E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1CD2EC4E2D60067C14E /* Color+Extensions.swift */; };
+		BC10B2202EC4E2D60067C14E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1CE2EC4E2D60067C14E /* Date+Extensions.swift */; };
+		BC10B2212EC4E2D60067C14E /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1D02EC4E2D60067C14E /* AuthAPI.swift */; };
+		BC10B2222EC4E2D60067C14E /* ChecklistAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1D22EC4E2D60067C14E /* ChecklistAPI.swift */; };
+		BC10B2242EC4E2D60067C14E /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1D72EC4E2D60067C14E /* LoginResponse.swift */; };
+		BC10B2252EC4E2D60067C14E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B1DB2EC4E2D60067C14E /* ImagePicker.swift */; };
+		BC10B2262EC4E2D60067C14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC10B1DD2EC4E2D60067C14E /* Assets.xcassets */; };
+		BC10B2282EC4E2D60067C14E /* AIGeneratedListView.swift in Resources */ = {isa = PBXBuildFile; fileRef = BC10B1852EC4E2D60067C14E /* AIGeneratedListView.swift */; };
+		BC10B22A2EC4EC160067C14E /* PropertyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B2292EC4EC080067C14E /* PropertyService.swift */; };
+		BC10B2D12EC83CA30067C14E /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B2D02EC83C990067C14E /* SavedView.swift */; };
+		BC10B2D32EC83CAE0067C14E /* SavedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B2D22EC83CA60067C14E /* SavedViewModel.swift */; };
+		BC10B2D92EC83DB40067C14E /* SavedPropertyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B2D82EC83DA60067C14E /* SavedPropertyCard.swift */; };
+		BC10B2DD2EC83F1D0067C14E /* AddChecklistSavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B2DC2EC83EF10067C14E /* AddChecklistSavedView.swift */; };
+		BC10B2E02EC83F5A0067C14E /* SelectablePropertyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B2DF2EC83F550067C14E /* SelectablePropertyCard.swift */; };
+		BC10B2E22EC841FA0067C14E /* SavedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B2E12EC841ED0067C14E /* SavedHeaderView.swift */; };
+		BC10B2E52EC84D5F0067C14E /* SavedMdoel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B2E42EC84D5A0067C14E /* SavedMdoel.swift */; };
+		BC10B2E72EC84F310067C14E /* ChecklistRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B2E62EC84F2C0067C14E /* ChecklistRequest.swift */; };
+		BC10B2E92EC84FDC0067C14E /* ChecklistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B2E82EC84FD30067C14E /* ChecklistService.swift */; };
+		BC10B2EC2EC8528A0067C14E /* PropertyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10B2EB2EC852870067C14E /* PropertyAPI.swift */; };
 		BCC987B82EC40456002AE0F8 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = BCC987B72EC40456002AE0F8 /* CombineMoya */; };
 		BCC987BA2EC40456002AE0F8 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = BCC987B92EC40456002AE0F8 /* Moya */; };
 		BCC987BC2EC40456002AE0F8 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = BCC987BB2EC40456002AE0F8 /* ReactiveMoya */; };
 		BCC987BE2EC40456002AE0F8 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = BCC987BD2EC40456002AE0F8 /* RxMoya */; };
+		BCF9E25E2ECCBD2F004FB229 /* PropertyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E25D2ECCBD28004FB229 /* PropertyRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,41 +113,95 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC10B1782EC4E2D60067C14E /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		BC10B1792EC4E2D60067C14E /* JeepChakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeepChakApp.swift; sourceTree = "<group>"; };
+		BC10B17A2EC4E2D60067C14E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		BC10B17B2EC4E2D60067C14E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		BC10B17D2EC4E2D60067C14E /* AnalyzeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeView.swift; sourceTree = "<group>"; };
+		BC10B17E2EC4E2D60067C14E /* AnalyzeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeViewModel.swift; sourceTree = "<group>"; };
+		BC10B1802EC4E2D60067C14E /* AddCheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCheckListView.swift; sourceTree = "<group>"; };
+		BC10B1812EC4E2D60067C14E /* AddCheckListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCheckListViewModel.swift; sourceTree = "<group>"; };
+		BC10B1822EC4E2D60067C14E /* CheckListTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListTextField.swift; sourceTree = "<group>"; };
+		BC10B1842EC4E2D60067C14E /* AddChecklistSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChecklistSheet.swift; sourceTree = "<group>"; };
+		BC10B1852EC4E2D60067C14E /* AIGeneratedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIGeneratedListView.swift; sourceTree = "<group>"; };
+		BC10B1862EC4E2D60067C14E /* AILoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AILoadingView.swift; sourceTree = "<group>"; };
+		BC10B1872EC4E2D60067C14E /* AIResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIResultView.swift; sourceTree = "<group>"; };
+		BC10B1892EC4E2D60067C14E /* AddCheckListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCheckListItem.swift; sourceTree = "<group>"; };
+		BC10B18A2EC4E2D60067C14E /* AICheckItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICheckItem.swift; sourceTree = "<group>"; };
+		BC10B18B2EC4E2D60067C14E /* CheckItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckItem.swift; sourceTree = "<group>"; };
+		BC10B18C2EC4E2D60067C14E /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
+		BC10B18E2EC4E2D60067C14E /* AddCheckItemSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCheckItemSheet.swift; sourceTree = "<group>"; };
+		BC10B18F2EC4E2D60067C14E /* CheckListDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListDetailHeaderView.swift; sourceTree = "<group>"; };
+		BC10B1902EC4E2D60067C14E /* CheckListFinalHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListFinalHeaderView.swift; sourceTree = "<group>"; };
+		BC10B1912EC4E2D60067C14E /* CheckListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListHeaderView.swift; sourceTree = "<group>"; };
+		BC10B1922EC4E2D60067C14E /* StatusButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusButtonView.swift; sourceTree = "<group>"; };
+		BC10B1932EC4E2D60067C14E /* StatusIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicatorView.swift; sourceTree = "<group>"; };
+		BC10B1952EC4E2D60067C14E /* CheckListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListDetailView.swift; sourceTree = "<group>"; };
+		BC10B1962EC4E2D60067C14E /* CheckListEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListEmptyView.swift; sourceTree = "<group>"; };
+		BC10B1972EC4E2D60067C14E /* CheckListFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListFinalView.swift; sourceTree = "<group>"; };
+		BC10B1982EC4E2D60067C14E /* CheckListGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListGridView.swift; sourceTree = "<group>"; };
+		BC10B1992EC4E2D60067C14E /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
+		BC10B19B2EC4E2D60067C14E /* CheckListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListDetailViewModel.swift; sourceTree = "<group>"; };
+		BC10B19C2EC4E2D60067C14E /* CheckListFinalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListFinalViewModel.swift; sourceTree = "<group>"; };
+		BC10B19D2EC4E2D60067C14E /* CheckListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListViewModel.swift; sourceTree = "<group>"; };
+		BC10B1A02EC4E2D60067C14E /* PropertyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCard.swift; sourceTree = "<group>"; };
+		BC10B1A12EC4E2D60067C14E /* RecentPropertyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentPropertyCard.swift; sourceTree = "<group>"; };
+		BC10B1A32EC4E2D60067C14E /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		BC10B1A42EC4E2D60067C14E /* RecentProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentProperty.swift; sourceTree = "<group>"; };
+		BC10B1A62EC4E2D60067C14E /* HomeCategorySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategorySectionView.swift; sourceTree = "<group>"; };
+		BC10B1A72EC4E2D60067C14E /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		BC10B1A82EC4E2D60067C14E /* HomePopularSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePopularSectionView.swift; sourceTree = "<group>"; };
+		BC10B1A92EC4E2D60067C14E /* HomeRecentSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecentSectionView.swift; sourceTree = "<group>"; };
+		BC10B1AB2EC4E2D60067C14E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BC10B1AC2EC4E2D60067C14E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BC10B1AE2EC4E2D60067C14E /* AppleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInButton.swift; sourceTree = "<group>"; };
+		BC10B1AF2EC4E2D60067C14E /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		BC10B1B02EC4E2D60067C14E /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		BC10B1B12EC4E2D60067C14E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		BC10B1B32EC4E2D60067C14E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BC10B1B42EC4E2D60067C14E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		BC10B1B62EC4E2D60067C14E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BC10B1B72EC4E2D60067C14E /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		BC10B1B92EC4E2D60067C14E /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		BC10B1BB2EC4E2D60067C14E /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
+		BC10B1BC2EC4E2D60067C14E /* InfoSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSection.swift; sourceTree = "<group>"; };
+		BC10B1BD2EC4E2D60067C14E /* MyHeaderView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeaderView.swift.swift; sourceTree = "<group>"; };
+		BC10B1BE2EC4E2D60067C14E /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		BC10B1BF2EC4E2D60067C14E /* ProfileSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSection.swift; sourceTree = "<group>"; };
+		BC10B1C02EC4E2D60067C14E /* RecommendationBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationBanner.swift; sourceTree = "<group>"; };
+		BC10B1C12EC4E2D60067C14E /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		BC10B1C22EC4E2D60067C14E /* StatisticsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsSection.swift; sourceTree = "<group>"; };
+		BC10B1C42EC4E2D60067C14E /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
+		BC10B1C72EC4E2D60067C14E /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		BC10B1C82EC4E2D60067C14E /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		BC10B1CA2EC4E2D60067C14E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		BC10B1CD2EC4E2D60067C14E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		BC10B1CE2EC4E2D60067C14E /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		BC10B1D02EC4E2D60067C14E /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		BC10B1D22EC4E2D60067C14E /* ChecklistAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistAPI.swift; sourceTree = "<group>"; };
+		BC10B1D72EC4E2D60067C14E /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		BC10B1DB2EC4E2D60067C14E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		BC10B1DD2EC4E2D60067C14E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC10B1DE2EC4E2D60067C14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC10B1DF2EC4E2D60067C14E /* JeepChak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JeepChak.entitlements; sourceTree = "<group>"; };
+		BC10B2292EC4EC080067C14E /* PropertyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyService.swift; sourceTree = "<group>"; };
+		BC10B2D02EC83C990067C14E /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		BC10B2D22EC83CA60067C14E /* SavedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewModel.swift; sourceTree = "<group>"; };
+		BC10B2D82EC83DA60067C14E /* SavedPropertyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPropertyCard.swift; sourceTree = "<group>"; };
+		BC10B2DC2EC83EF10067C14E /* AddChecklistSavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChecklistSavedView.swift; sourceTree = "<group>"; };
+		BC10B2DF2EC83F550067C14E /* SelectablePropertyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectablePropertyCard.swift; sourceTree = "<group>"; };
+		BC10B2E12EC841ED0067C14E /* SavedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedHeaderView.swift; sourceTree = "<group>"; };
+		BC10B2E42EC84D5A0067C14E /* SavedMdoel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMdoel.swift; sourceTree = "<group>"; };
+		BC10B2E62EC84F2C0067C14E /* ChecklistRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistRequest.swift; sourceTree = "<group>"; };
+		BC10B2E82EC84FD30067C14E /* ChecklistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistService.swift; sourceTree = "<group>"; };
+		BC10B2EB2EC852870067C14E /* PropertyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAPI.swift; sourceTree = "<group>"; };
 		BC3D529D2EA37C4800BD9E2B /* JeepChak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeepChak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3D52AA2EA37C4A00BD9E2B /* JeepChakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeepChakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3D52B42EA37C4A00BD9E2B /* JeepChakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeepChakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF9E25D2ECCBD28004FB229 /* PropertyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BC8754D72EA53E490026C2A9 /* Exceptions for "JeepChak" folder in "JeepChak" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BC3D529C2EA37C4800BD9E2B /* JeepChak */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		BC659D962EB5DD4600E56141 /* Exceptions for "JeepChak" folder in "Copy Bundle Resources" phase from "JeepChak" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = BC3D529B2EA37C4800BD9E2B /* Resources */;
-			membershipExceptions = (
-				Feature/CheckList/AIView/AIGeneratedListView.swift,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BC3D529F2EA37C4800BD9E2B /* JeepChak */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BC8754D72EA53E490026C2A9 /* Exceptions for "JeepChak" folder in "JeepChak" target */,
-				BC659D962EB5DD4600E56141 /* Exceptions for "JeepChak" folder in "Copy Bundle Resources" phase from "JeepChak" target */,
-			);
-			path = JeepChak;
-			sourceTree = "<group>";
-		};
 		BC3D52AD2EA37C4A00BD9E2B /* JeepChakTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = JeepChakTests;
@@ -107,10 +243,396 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC10B17C2EC4E2D60067C14E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1782EC4E2D60067C14E /* AppState.swift */,
+				BC10B1792EC4E2D60067C14E /* JeepChakApp.swift */,
+				BC10B17A2EC4E2D60067C14E /* MainTabView.swift */,
+				BC10B17B2EC4E2D60067C14E /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BC10B17F2EC4E2D60067C14E /* Analyze */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B17D2EC4E2D60067C14E /* AnalyzeView.swift */,
+				BC10B17E2EC4E2D60067C14E /* AnalyzeViewModel.swift */,
+			);
+			path = Analyze;
+			sourceTree = "<group>";
+		};
+		BC10B1832EC4E2D60067C14E /* AddCheckList */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B2DE2EC83F4D0067C14E /* Components */,
+				BC10B2DC2EC83EF10067C14E /* AddChecklistSavedView.swift */,
+				BC10B1802EC4E2D60067C14E /* AddCheckListView.swift */,
+				BC10B1812EC4E2D60067C14E /* AddCheckListViewModel.swift */,
+				BC10B1822EC4E2D60067C14E /* CheckListTextField.swift */,
+			);
+			path = AddCheckList;
+			sourceTree = "<group>";
+		};
+		BC10B1882EC4E2D60067C14E /* AIView */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1842EC4E2D60067C14E /* AddChecklistSheet.swift */,
+				BC10B1852EC4E2D60067C14E /* AIGeneratedListView.swift */,
+				BC10B1862EC4E2D60067C14E /* AILoadingView.swift */,
+				BC10B1872EC4E2D60067C14E /* AIResultView.swift */,
+			);
+			path = AIView;
+			sourceTree = "<group>";
+		};
+		BC10B18D2EC4E2D60067C14E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1892EC4E2D60067C14E /* AddCheckListItem.swift */,
+				BC10B18A2EC4E2D60067C14E /* AICheckItem.swift */,
+				BC10B18B2EC4E2D60067C14E /* CheckItem.swift */,
+				BC10B18C2EC4E2D60067C14E /* DetailItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC10B1942EC4E2D60067C14E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B18E2EC4E2D60067C14E /* AddCheckItemSheet.swift */,
+				BC10B18F2EC4E2D60067C14E /* CheckListDetailHeaderView.swift */,
+				BC10B1902EC4E2D60067C14E /* CheckListFinalHeaderView.swift */,
+				BC10B1912EC4E2D60067C14E /* CheckListHeaderView.swift */,
+				BC10B1922EC4E2D60067C14E /* StatusButtonView.swift */,
+				BC10B1932EC4E2D60067C14E /* StatusIndicatorView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC10B19A2EC4E2D60067C14E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1942EC4E2D60067C14E /* Components */,
+				BC10B1952EC4E2D60067C14E /* CheckListDetailView.swift */,
+				BC10B1962EC4E2D60067C14E /* CheckListEmptyView.swift */,
+				BC10B1972EC4E2D60067C14E /* CheckListFinalView.swift */,
+				BC10B1982EC4E2D60067C14E /* CheckListGridView.swift */,
+				BC10B1992EC4E2D60067C14E /* CheckListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC10B19E2EC4E2D60067C14E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B19B2EC4E2D60067C14E /* CheckListDetailViewModel.swift */,
+				BC10B19C2EC4E2D60067C14E /* CheckListFinalViewModel.swift */,
+				BC10B19D2EC4E2D60067C14E /* CheckListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BC10B19F2EC4E2D60067C14E /* CheckList */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1832EC4E2D60067C14E /* AddCheckList */,
+				BC10B1882EC4E2D60067C14E /* AIView */,
+				BC10B18D2EC4E2D60067C14E /* Model */,
+				BC10B19A2EC4E2D60067C14E /* View */,
+				BC10B19E2EC4E2D60067C14E /* ViewModel */,
+			);
+			path = CheckList;
+			sourceTree = "<group>";
+		};
+		BC10B1A22EC4E2D60067C14E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1A02EC4E2D60067C14E /* PropertyCard.swift */,
+				BC10B1A12EC4E2D60067C14E /* RecentPropertyCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC10B1A52EC4E2D60067C14E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1A32EC4E2D60067C14E /* Property.swift */,
+				BC10B1A42EC4E2D60067C14E /* RecentProperty.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC10B1AA2EC4E2D60067C14E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1A62EC4E2D60067C14E /* HomeCategorySectionView.swift */,
+				BC10B1A72EC4E2D60067C14E /* HomeHeaderView.swift */,
+				BC10B1A82EC4E2D60067C14E /* HomePopularSectionView.swift */,
+				BC10B1A92EC4E2D60067C14E /* HomeRecentSectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC10B1AD2EC4E2D60067C14E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1A22EC4E2D60067C14E /* Components */,
+				BC10B1A52EC4E2D60067C14E /* Model */,
+				BC10B1AA2EC4E2D60067C14E /* View */,
+				BC10B1AB2EC4E2D60067C14E /* HomeView.swift */,
+				BC10B1AC2EC4E2D60067C14E /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BC10B1B22EC4E2D60067C14E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1AE2EC4E2D60067C14E /* AppleSignInButton.swift */,
+				BC10B1AF2EC4E2D60067C14E /* AuthHeaderView.swift */,
+				BC10B1B02EC4E2D60067C14E /* CustomSecureField.swift */,
+				BC10B1B12EC4E2D60067C14E /* CustomTextField.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		BC10B1B52EC4E2D60067C14E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1B22EC4E2D60067C14E /* components */,
+				BC10B1B32EC4E2D60067C14E /* LoginView.swift */,
+				BC10B1B42EC4E2D60067C14E /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BC10B1B82EC4E2D60067C14E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1B62EC4E2D60067C14E /* MapView.swift */,
+				BC10B1B72EC4E2D60067C14E /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		BC10B1BA2EC4E2D60067C14E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1B92EC4E2D60067C14E /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC10B1C32EC4E2D60067C14E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1BB2EC4E2D60067C14E /* InfoRow.swift */,
+				BC10B1BC2EC4E2D60067C14E /* InfoSection.swift */,
+				BC10B1BD2EC4E2D60067C14E /* MyHeaderView.swift.swift */,
+				BC10B1BE2EC4E2D60067C14E /* MyView.swift */,
+				BC10B1BF2EC4E2D60067C14E /* ProfileSection.swift */,
+				BC10B1C02EC4E2D60067C14E /* RecommendationBanner.swift */,
+				BC10B1C12EC4E2D60067C14E /* StatCard.swift */,
+				BC10B1C22EC4E2D60067C14E /* StatisticsSection.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC10B1C52EC4E2D60067C14E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1C42EC4E2D60067C14E /* MyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BC10B1C62EC4E2D60067C14E /* My */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1BA2EC4E2D60067C14E /* Model */,
+				BC10B1C32EC4E2D60067C14E /* View */,
+				BC10B1C52EC4E2D60067C14E /* ViewModel */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		BC10B1C92EC4E2D60067C14E /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1C72EC4E2D60067C14E /* SignUpView.swift */,
+				BC10B1C82EC4E2D60067C14E /* SignUpViewModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		BC10B1CB2EC4E2D60067C14E /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1CA2EC4E2D60067C14E /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		BC10B1CC2EC4E2D60067C14E /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B2CF2EC83C0C0067C14E /* Saved */,
+				BC10B17F2EC4E2D60067C14E /* Analyze */,
+				BC10B19F2EC4E2D60067C14E /* CheckList */,
+				BC10B1AD2EC4E2D60067C14E /* Home */,
+				BC10B1B52EC4E2D60067C14E /* Login */,
+				BC10B1B82EC4E2D60067C14E /* Map */,
+				BC10B1C62EC4E2D60067C14E /* My */,
+				BC10B1C92EC4E2D60067C14E /* SignUp */,
+				BC10B1CB2EC4E2D60067C14E /* Splash */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		BC10B1CF2EC4E2D60067C14E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1CD2EC4E2D60067C14E /* Color+Extensions.swift */,
+				BC10B1CE2EC4E2D60067C14E /* Date+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BC10B1D12EC4E2D60067C14E /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1D02EC4E2D60067C14E /* AuthAPI.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		BC10B1D32EC4E2D60067C14E /* Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1D22EC4E2D60067C14E /* ChecklistAPI.swift */,
+			);
+			path = Checklist;
+			sourceTree = "<group>";
+		};
+		BC10B1D42EC4E2D60067C14E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B2EA2EC8527E0067C14E /* Property */,
+				BC10B1D12EC4E2D60067C14E /* Auth */,
+				BC10B1D32EC4E2D60067C14E /* Checklist */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BC10B1D62EC4E2D60067C14E /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCF9E25D2ECCBD28004FB229 /* PropertyRequest.swift */,
+			);
+			path = APIModel;
+			sourceTree = "<group>";
+		};
+		BC10B1D82EC4E2D60067C14E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B2E82EC84FD30067C14E /* ChecklistService.swift */,
+				BC10B2E62EC84F2C0067C14E /* ChecklistRequest.swift */,
+				BC10B2292EC4EC080067C14E /* PropertyService.swift */,
+				BC10B1D72EC4E2D60067C14E /* LoginResponse.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BC10B1D92EC4E2D60067C14E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1D42EC4E2D60067C14E /* API */,
+				BC10B1D62EC4E2D60067C14E /* APIModel */,
+				BC10B1D82EC4E2D60067C14E /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BC10B1DA2EC4E2D60067C14E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1CF2EC4E2D60067C14E /* Extension */,
+				BC10B1D92EC4E2D60067C14E /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BC10B1DC2EC4E2D60067C14E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B1DA2EC4E2D60067C14E /* Core */,
+				BC10B1DB2EC4E2D60067C14E /* ImagePicker.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC10B1E02EC4E2D60067C14E /* JeepChak */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B17C2EC4E2D60067C14E /* App */,
+				BC10B1CC2EC4E2D60067C14E /* Feature */,
+				BC10B1DC2EC4E2D60067C14E /* Model */,
+				BC10B1DD2EC4E2D60067C14E /* Assets.xcassets */,
+				BC10B1DE2EC4E2D60067C14E /* Info.plist */,
+				BC10B1DF2EC4E2D60067C14E /* JeepChak.entitlements */,
+			);
+			path = JeepChak;
+			sourceTree = "<group>";
+		};
+		BC10B2CF2EC83C0C0067C14E /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B2E32EC84D1D0067C14E /* Model */,
+				BC10B2D72EC83D8C0067C14E /* Components */,
+				BC10B2D22EC83CA60067C14E /* SavedViewModel.swift */,
+				BC10B2D02EC83C990067C14E /* SavedView.swift */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		BC10B2D72EC83D8C0067C14E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B2E12EC841ED0067C14E /* SavedHeaderView.swift */,
+				BC10B2D82EC83DA60067C14E /* SavedPropertyCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC10B2DE2EC83F4D0067C14E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B2DF2EC83F550067C14E /* SelectablePropertyCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC10B2E32EC84D1D0067C14E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B2E42EC84D5A0067C14E /* SavedMdoel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC10B2EA2EC8527E0067C14E /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B2EB2EC852870067C14E /* PropertyAPI.swift */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
 		BC3D52942EA37C4800BD9E2B = {
 			isa = PBXGroup;
 			children = (
-				BC3D529F2EA37C4800BD9E2B /* JeepChak */,
+				BC10B1E02EC4E2D60067C14E /* JeepChak */,
 				BC3D52AD2EA37C4A00BD9E2B /* JeepChakTests */,
 				BC3D52B72EA37C4A00BD9E2B /* JeepChakUITests */,
 				BC3D529E2EA37C4800BD9E2B /* Products */,
@@ -141,9 +663,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BC3D529F2EA37C4800BD9E2B /* JeepChak */,
 			);
 			name = JeepChak;
 			packageProductDependencies = (
@@ -254,6 +773,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC10B2282EC4E2D60067C14E /* AIGeneratedListView.swift in Resources */,
+				BC10B2262EC4E2D60067C14E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +799,86 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF9E25E2ECCBD2F004FB229 /* PropertyRequest.swift in Sources */,
+				BC10B1E12EC4E2D60067C14E /* AppState.swift in Sources */,
+				BC10B1E22EC4E2D60067C14E /* JeepChakApp.swift in Sources */,
+				BC10B1E32EC4E2D60067C14E /* MainTabView.swift in Sources */,
+				BC10B1E42EC4E2D60067C14E /* RootView.swift in Sources */,
+				BC10B1E52EC4E2D60067C14E /* AnalyzeView.swift in Sources */,
+				BC10B1E62EC4E2D60067C14E /* AnalyzeViewModel.swift in Sources */,
+				BC10B1E72EC4E2D60067C14E /* AddCheckListView.swift in Sources */,
+				BC10B1E82EC4E2D60067C14E /* AddCheckListViewModel.swift in Sources */,
+				BC10B1E92EC4E2D60067C14E /* CheckListTextField.swift in Sources */,
+				BC10B1EA2EC4E2D60067C14E /* AddChecklistSheet.swift in Sources */,
+				BC10B1EB2EC4E2D60067C14E /* AIGeneratedListView.swift in Sources */,
+				BC10B1EC2EC4E2D60067C14E /* AILoadingView.swift in Sources */,
+				BC10B1ED2EC4E2D60067C14E /* AIResultView.swift in Sources */,
+				BC10B2DD2EC83F1D0067C14E /* AddChecklistSavedView.swift in Sources */,
+				BC10B1EE2EC4E2D60067C14E /* AddCheckListItem.swift in Sources */,
+				BC10B1EF2EC4E2D60067C14E /* AICheckItem.swift in Sources */,
+				BC10B1F02EC4E2D60067C14E /* CheckItem.swift in Sources */,
+				BC10B1F12EC4E2D60067C14E /* DetailItem.swift in Sources */,
+				BC10B1F22EC4E2D60067C14E /* AddCheckItemSheet.swift in Sources */,
+				BC10B2D92EC83DB40067C14E /* SavedPropertyCard.swift in Sources */,
+				BC10B1F32EC4E2D60067C14E /* CheckListDetailHeaderView.swift in Sources */,
+				BC10B1F42EC4E2D60067C14E /* CheckListFinalHeaderView.swift in Sources */,
+				BC10B1F52EC4E2D60067C14E /* CheckListHeaderView.swift in Sources */,
+				BC10B1F62EC4E2D60067C14E /* StatusButtonView.swift in Sources */,
+				BC10B1F72EC4E2D60067C14E /* StatusIndicatorView.swift in Sources */,
+				BC10B1F82EC4E2D60067C14E /* CheckListDetailView.swift in Sources */,
+				BC10B2E02EC83F5A0067C14E /* SelectablePropertyCard.swift in Sources */,
+				BC10B2EC2EC8528A0067C14E /* PropertyAPI.swift in Sources */,
+				BC10B1F92EC4E2D60067C14E /* CheckListEmptyView.swift in Sources */,
+				BC10B1FA2EC4E2D60067C14E /* CheckListFinalView.swift in Sources */,
+				BC10B1FB2EC4E2D60067C14E /* CheckListGridView.swift in Sources */,
+				BC10B1FC2EC4E2D60067C14E /* CheckListView.swift in Sources */,
+				BC10B1FD2EC4E2D60067C14E /* CheckListDetailViewModel.swift in Sources */,
+				BC10B1FE2EC4E2D60067C14E /* CheckListFinalViewModel.swift in Sources */,
+				BC10B1FF2EC4E2D60067C14E /* CheckListViewModel.swift in Sources */,
+				BC10B2002EC4E2D60067C14E /* PropertyCard.swift in Sources */,
+				BC10B2012EC4E2D60067C14E /* RecentPropertyCard.swift in Sources */,
+				BC10B2E22EC841FA0067C14E /* SavedHeaderView.swift in Sources */,
+				BC10B2022EC4E2D60067C14E /* Property.swift in Sources */,
+				BC10B2032EC4E2D60067C14E /* RecentProperty.swift in Sources */,
+				BC10B2042EC4E2D60067C14E /* HomeCategorySectionView.swift in Sources */,
+				BC10B2052EC4E2D60067C14E /* HomeHeaderView.swift in Sources */,
+				BC10B2062EC4E2D60067C14E /* HomePopularSectionView.swift in Sources */,
+				BC10B2072EC4E2D60067C14E /* HomeRecentSectionView.swift in Sources */,
+				BC10B2082EC4E2D60067C14E /* HomeView.swift in Sources */,
+				BC10B2092EC4E2D60067C14E /* HomeViewModel.swift in Sources */,
+				BC10B20A2EC4E2D60067C14E /* AppleSignInButton.swift in Sources */,
+				BC10B20B2EC4E2D60067C14E /* AuthHeaderView.swift in Sources */,
+				BC10B20C2EC4E2D60067C14E /* CustomSecureField.swift in Sources */,
+				BC10B20D2EC4E2D60067C14E /* CustomTextField.swift in Sources */,
+				BC10B20E2EC4E2D60067C14E /* LoginView.swift in Sources */,
+				BC10B2D32EC83CAE0067C14E /* SavedViewModel.swift in Sources */,
+				BC10B20F2EC4E2D60067C14E /* LoginViewModel.swift in Sources */,
+				BC10B2D12EC83CA30067C14E /* SavedView.swift in Sources */,
+				BC10B2102EC4E2D60067C14E /* MapView.swift in Sources */,
+				BC10B2E72EC84F310067C14E /* ChecklistRequest.swift in Sources */,
+				BC10B22A2EC4EC160067C14E /* PropertyService.swift in Sources */,
+				BC10B2112EC4E2D60067C14E /* MapViewModel.swift in Sources */,
+				BC10B2122EC4E2D60067C14E /* UserInfo.swift in Sources */,
+				BC10B2132EC4E2D60067C14E /* InfoRow.swift in Sources */,
+				BC10B2142EC4E2D60067C14E /* InfoSection.swift in Sources */,
+				BC10B2152EC4E2D60067C14E /* MyHeaderView.swift.swift in Sources */,
+				BC10B2162EC4E2D60067C14E /* MyView.swift in Sources */,
+				BC10B2172EC4E2D60067C14E /* ProfileSection.swift in Sources */,
+				BC10B2182EC4E2D60067C14E /* RecommendationBanner.swift in Sources */,
+				BC10B2E92EC84FDC0067C14E /* ChecklistService.swift in Sources */,
+				BC10B2192EC4E2D60067C14E /* StatCard.swift in Sources */,
+				BC10B21A2EC4E2D60067C14E /* StatisticsSection.swift in Sources */,
+				BC10B21B2EC4E2D60067C14E /* MyViewModel.swift in Sources */,
+				BC10B21C2EC4E2D60067C14E /* SignUpView.swift in Sources */,
+				BC10B21D2EC4E2D60067C14E /* SignUpViewModel.swift in Sources */,
+				BC10B21E2EC4E2D60067C14E /* SplashView.swift in Sources */,
+				BC10B21F2EC4E2D60067C14E /* Color+Extensions.swift in Sources */,
+				BC10B2202EC4E2D60067C14E /* Date+Extensions.swift in Sources */,
+				BC10B2212EC4E2D60067C14E /* AuthAPI.swift in Sources */,
+				BC10B2222EC4E2D60067C14E /* ChecklistAPI.swift in Sources */,
+				BC10B2242EC4E2D60067C14E /* LoginResponse.swift in Sources */,
+				BC10B2E52EC84D5F0067C14E /* SavedMdoel.swift in Sources */,
+				BC10B2252EC4E2D60067C14E /* ImagePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,13 +2,12 @@
 //  CheckListView.swift
 //  JeepChak
 //
-//  Created by 김은찬 on 10/4/25.
-//
 
 import SwiftUI
 
 struct CheckListView: View {
     @StateObject private var viewModel = CheckListViewModel()
+    @State private var showSavedView = false  // 추가
 
     var body: some View {
         NavigationView {
@@ -50,7 +49,7 @@ struct CheckListView: View {
                 }
 
                 Button(action: {
-                    viewModel.showAddSheet = true
+                    showSavedView = true
                 }) {
                     Image("AddButton")
                         .resizable()
@@ -62,13 +61,16 @@ struct CheckListView: View {
             }
             .background(Color.customWhite)
             .navigationBarBackButtonHidden(true)
-            .sheet(isPresented: $viewModel.showAddSheet) {
-                AddCheckListView(
-                    addCheckListItem: { newItem in
-                        viewModel.addItem(title: newItem.title, date: newItem.date, image: newItem.image)
-                    },
-                    onDismiss: {
-                        viewModel.showAddSheet = false
+            .sheet(isPresented: $showSavedView) {
+                SavedView(
+                    onPropertySelected: { property in
+                        // 매물 선택 시 AI 생성 후 체크리스트 추가
+                        viewModel.addItem(
+                            title: property.name,
+                            date: property.createdAt,
+                            image: property.image
+                        )
+                        showSavedView = false
                     }
                 )
             }
@@ -89,4 +91,3 @@ struct CheckListView: View {
 #Preview {
     CheckListView()
 }
-
