@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct AddCheckListView: View {
     @StateObject private var viewModel = AddCheckListViewModel()
@@ -13,6 +14,7 @@ struct AddCheckListView: View {
 
     var addCheckListItem: (AddCheckListItem) -> Void
     var onDismiss: () -> Void
+    var propertyId: Int = 1
 
     var body: some View {
         NavigationView {
@@ -113,10 +115,10 @@ struct AddCheckListView: View {
                         .stroke(Color.gray.opacity(0.3), lineWidth: 1)
                 )
                 .focused($focusedField, equals: .memo)
-
         }
     }
 
+    // MARK: - 버튼 섹션
     private var actionButtons: some View {
         HStack(spacing: 10) {
             Button("뒤로가기") {
@@ -127,12 +129,21 @@ struct AddCheckListView: View {
             .background(Color.gray.opacity(0.2))
             .cornerRadius(8)
             .foregroundColor(.gray)
-            .fontWeight(.medium)
+            .fontWeight(.semibold)
 
             Button("추가하기") {
                 guard viewModel.isValid else { return }
                 let newItem = viewModel.createCheckListItem()
+                
+                print("📍 전송할 propertyId:", propertyId)
+
+                // 로컬에 추가
                 addCheckListItem(newItem)
+
+                // 서버에 업로드
+                viewModel.uploadChecklist(to: propertyId)
+
+                // AI 로딩 화면 전환
                 viewModel.showAILoading = true
             }
             .sheet(isPresented: $viewModel.showAILoading) {
@@ -151,7 +162,7 @@ struct AddCheckListView: View {
             .background(Color.cyan)
             .foregroundColor(.white)
             .cornerRadius(8)
-            .fontWeight(.medium)
+            .fontWeight(.semibold)
         }
         .padding(.top, 20)
     }
@@ -160,10 +171,11 @@ struct AddCheckListView: View {
 #Preview {
     AddCheckListView(
         addCheckListItem: { _ in
-            print("✅ 체크리스트 아이템이 추가되었습니다.")
+            print("체크리스트 아이템이 추가되었습니다.")
         },
         onDismiss: {
-            print("✅ 뷰가 닫혔습니다.")
+            print("뷰가 닫혔습니다.")
         }
     )
 }
+
